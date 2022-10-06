@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    color: hsl(0, 0%, 60%);
+    font-size: 20px;
+    
+}
+
+body {
+    overflow-x: hidden;
+}
+
+i {
+   color: 	hsl(165, 100%, 40%); 
+}
+
+.main1 {
+    background-color: hsl(0, 0%, 95%);
+    width: 100vw;
+    height: 190vh;
+}
+
+.leftSide {
+    float: left;
+    width: 30%;
+    margin-left: 40px;
+    margin-top: 20px;
+    box-shadow: 0px 2px 15px 10px rgb(184, 180, 180);
+}
+
+.container1, .container2, .container3 {
+    padding-left: 10px;
+}
+
+.container0 > img {
+    width: 480px;
+}
+
+.container0 > p {
+    position: relative;
+    display: inline-block;
+    top: -50px;
+    color: white;
+    left: 30px;
+    width: 250px;
+    font-size: 1.5rem;
+}
+
+
+.container1 > span, i {
+    line-height: 10px;
+    margin-bottom: 15px;
+}
+
+.container1 > span {
+    margin-left: 15px;
+}
+
+.container2, .container3 {
+    margin-top: 30px;
+}
+
+.container2 > span {
+    margin-left: 15px;
+    font-weight: 700;
+    color: hsl(0, 0%, 50%);
+    font-size: 25px;
+}
+
+.container3 > span {
+    margin-left: 15px;
+    font-weight: 700;
+    color: hsl(0, 0%, 50%);
+    font-size: 25px;
+}
+
+.container2, .container3 > i {
+    margin-bottom: 30px;
+}
+
+.adobe, .photography, .illustrator, .media, .english, .turkish, .russian, .polish {
+    width: 95%;
+    background-color: hsl(0, 0%, 75%);
+    border-radius: 25px;
+    margin-top: 20px; 
+    margin-bottom: 20px;   
+}
+
+.adobe > p {
+    width: 90%;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    background-color: hsl(165, 100%, 40%);
+}
+
+.photography > p {
+    width: 80%;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    background-color: hsl(165, 100%, 40%);
+}
+
+.illustrator > p {
+    width: 75%;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    background-color: hsl(165, 100%, 40%);
+}
+
+.media > p {
+    width: 50%;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    background-color: hsl(165, 100%, 40%);
+}
+
+.english > p {
+    width: 100%;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    background-color: hsl(165, 100%, 40%);
+}
+
+.turkish > p {
+    width: 100%;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    background-color: hsl(165, 100%, 40%);
+}
+
+.russian > p {
+    width: 100%;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    background-color: hsl(165, 100%, 40%);
+}
+
+.polish > p {
+    width: 90%;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    background-color: hsl(165, 100%, 40%);
+}
+
+.rightSide1 {
+    float: left;
+    width: 62%;
+    margin-left: 25px;
+    margin-top: 20px;
+    box-shadow: 0px 2px 15px 10px rgb(184, 180, 180);
+}
+
+.workEx > i{
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.workEx > span{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.workExperience {
+    margin-left: 25px;
+    
+}
+
+.workEx2 > h4 {
+    margin-bottom: 20px;
+}
+
+.workEx3 {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.workEx3 > h4 {
+    margin-bottom: 20px;
+}
+
+hr {
+    margin-top: 30px;
+    width: 900px;
+}
+
+.edu0 > i{
+    font-size: 30px;
+    margin-left: 60px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.edu0 > span{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.edu1 > h4{
+    margin-bottom: 13px;
+}
+
+.edu2 > h4{
+    margin-bottom: 13px;
+}
+
+.edu3 > h4{
+    margin-bottom: 13px;
+}
+
+.edu4 > h4{
+    margin-bottom: 13px;
+}
+
+.edu1, .edu2, .edu3, .edu4 {
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+.rightSide2 {
+    float: left;
+    width: 62%;
+    margin-left: 25px;
+    margin-top: 20px;
+    padding-bottom: 50px;
+    box-shadow: 0px 2px 15px 10px rgb(184, 180, 180);
+}
+
+footer {
+    text-align: center;
+    background-color: hsl(165, 100%, 40%);
+    width: 100vw;
+    height: 140px;
+}
+
+footer > p {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+footer > i, h3, a{
+    color: white;
+}
+
+footer > h3, a {
+    font-size: 25px;
+}
+
+
